@@ -1,0 +1,80 @@
+.App {
+    border: 1px solid #3d3d3d;
+    margin: 2px 30px;
+    padding: 25px 15px;
+  background: linear-gradient(45deg, red, blue);
+
+}
+
+.header {
+color: #00ECFF;   
+ text-align: center;
+    text-shadow: 1px 2px #545154;
+}
+
+.to-do-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+
+
+}
+
+.to-do-container ul{
+          margin-top: 20px;
+
+       
+}
+
+
+
+.to-do-container ul li {
+    width: 680px;
+    overflow-wrap: break-word;
+    list-style-type: "👉";
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 23px;
+    background-color:rgba(255,255,255,0.6);
+    border-style:  2px solid;
+    border-radius: 5px;
+
+
+          
+}
+.item{
+    margin-top: 8px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 1px;
+      color:#fff;
+
+
+
+
+
+}
+.done{
+    text-decoration: line-through;
+    color: crimson;
+
+
+
+
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-wrap: break-word;
+    padding-right:15px;
+    
+}
+
+.search-input{
+  border-radius: 5px;
+  border: 0px solid #ccc; 
+  margin-left: 100px; 
+  width: 20%;
+}
