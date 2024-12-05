@@ -1,7 +1,7 @@
 import React from 'react'
 import SerchItem from "./SerchItem.js";
 
-function TodoItem({ AddTodo, ItemText, setItem, DeleteItem ,})
+function AddItem({ AddTodo, ItemText, setItem })
 {
 
 
@@ -32,4 +32,4 @@ function TodoItem({ AddTodo, ItemText, setItem, DeleteItem ,})
 }            
 
 
-export default TodoItem
+export default AddItem

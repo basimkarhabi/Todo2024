@@ -1,7 +1,7 @@
 import React from 'react'
-import './App.css';
+import '../App.css';
 
-export default function SerchItem({searchTodo,sortTodo }) {
+export default function SerchItem({searchTodo}) {
     return (
       <div className="container">
         <div className="input-group mb-3 ml-1 d-flex flex-nowrap">
@@ -15,21 +15,6 @@ export default function SerchItem({searchTodo,sortTodo }) {
           />  
           
         </div>
-      <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id=" SortTasks"
-
-          
-          />
-  <label class="form-check-label" for=" Sort Tasks
-">
- Sort Tasks
-  </label>
-</div>
-
-
-
-
-          
       </div>
      
           
